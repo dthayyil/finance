@@ -1,0 +1,12 @@
+D:\github\finance\Finance.Models\bin\Debug\net6.0\Finance.Models.deps.json
+D:\github\finance\Finance.Models\bin\Debug\net6.0\Finance.Models.dll
+D:\github\finance\Finance.Models\bin\Debug\net6.0\ref\Finance.Models.dll
+D:\github\finance\Finance.Models\bin\Debug\net6.0\Finance.Models.pdb
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.csproj.AssemblyReference.cache
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.AssemblyInfoInputs.cache
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.AssemblyInfo.cs
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.csproj.CoreCompileInputs.cache
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.dll
+D:\github\finance\Finance.Models\obj\Debug\net6.0\ref\Finance.Models.dll
+D:\github\finance\Finance.Models\obj\Debug\net6.0\Finance.Models.pdb

@@ -1,0 +1,17 @@
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.csproj.AssemblyReference.cache
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.AssemblyInfoInputs.cache
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.AssemblyInfo.cs
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.csproj.CoreCompileInputs.cache
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Services.deps.json
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Services.dll
+D:\github\finance\Finance.Services\bin\Debug\net6.0\ref\Finance.Services.dll
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Services.pdb
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Core.dll
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Models.dll
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Core.pdb
+D:\github\finance\Finance.Services\bin\Debug\net6.0\Finance.Models.pdb
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.csproj.CopyComplete
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.dll
+D:\github\finance\Finance.Services\obj\Debug\net6.0\ref\Finance.Services.dll
+D:\github\finance\Finance.Services\obj\Debug\net6.0\Finance.Services.pdb
