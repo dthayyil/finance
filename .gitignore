@@ -8,3 +8,16 @@ FinanceAPI/.vs/FinanceAPI/v17/.futdcache.v1
 FinanceAPI/.vs/FinanceAPI/project-colors.json
 FinanceAPI/.vs/FinanceAPI/DesignTimeBuild/.dtbcache.v2
 FinanceAPI/.vs/FinanceAPI/DesignTimeBuild/.dtbcache.v2
+*.cache
+*.cache
+*.v2
+FinanceAPI/bin/Debug/net6.0/ref/FinanceAPI.dll
+Finance.Core/obj/Debug/net6.0/Finance.Core.csproj.AssemblyReference.cache
+FinanceAPI/.vs/FinanceAPI/DesignTimeBuild/.dtbcache.v2
+FinanceAPI/.vs/FinanceAPI/project-colors.json
+FinanceAPI/.vs/FinanceAPI/v17/.futdcache.v1
+FinanceAPI/.vs/FinanceAPI/v17/.suo
+FinanceAPI/bin/Debug/net6.0/FinanceAPI.deps.json
+FinanceAPI/bin/Debug/net6.0/FinanceAPI.dll
+FinanceAPI/bin/Debug/net6.0/FinanceAPI.pdb
+FinanceAPI/bin/Debug/net6.0/ref/FinanceAPI.dll

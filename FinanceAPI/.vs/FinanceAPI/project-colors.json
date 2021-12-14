@@ -5,7 +5,27 @@
       "ProjectGuid": "d1d8b7e5-91af-489a-b9ed-1481d4328ec3",
       "DisplayName": "FinanceAPI",
       "ColorIndex": 0
+    },
+    "02a192c1-b1b6-481a-93e4-9c0471029f96": {
+      "ProjectGuid": "02a192c1-b1b6-481a-93e4-9c0471029f96",
+      "DisplayName": "Finance.Core",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "05991bce-acf0-4703-ade7-619b751871a8": {
+      "ProjectGuid": "05991bce-acf0-4703-ade7-619b751871a8",
+      "DisplayName": "Finance.Services",
+      "ColorIndex": 2
+    },
+    "17decd7f-6ed0-469d-bb32-336b45193317": {
+      "ProjectGuid": "17decd7f-6ed0-469d-bb32-336b45193317",
+      "DisplayName": "Finance.Models",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }
