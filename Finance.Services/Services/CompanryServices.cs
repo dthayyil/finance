@@ -37,6 +37,6 @@ namespace Finance.Services.Services
         public IEnumerable<CompanyViewModel> SearchCompany(string searchText) => 
             CompanyRepository.GetMany(x => x.Name.Contains(searchText) || x.Code.Contains(searchText)).
             Select(y => new CompanyViewModel
-                            { Id = y.Id, Name = y.Name, Code = y.Code });
+                            { Id = y.Id, Name = $"{y.Name} ({y.Code})"});
     }
 }

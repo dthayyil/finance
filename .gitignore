@@ -21,3 +21,7 @@ FinanceAPI/bin/Debug/net6.0/FinanceAPI.deps.json
 FinanceAPI/bin/Debug/net6.0/FinanceAPI.dll
 FinanceAPI/bin/Debug/net6.0/FinanceAPI.pdb
 FinanceAPI/bin/Debug/net6.0/ref/FinanceAPI.dll
+FinanceAPI/bin/Debug/net6.0/Finance.Models.dll
+FinanceAPI/bin/
+FinanceAPI/obj/
+Finance.Core/obj/
