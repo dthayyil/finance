@@ -1,5 +1,6 @@
 import { Grid, Paper } from "@mui/material";
 import { GridColDef } from "@mui/x-data-grid";
+import { format } from "date-fns";
 import { useState } from "react";
 import { useQuery } from "react-query";
 import { Table } from "../components/table";
@@ -22,14 +23,25 @@ export const CompanyContainer = () => {
         return loadHistory(selectedCompany?.id ?? 0);
     }, { enabled: !!selectedCompany?.id, cacheTime: Infinity, keepPreviousData: true })
 
+    const formatDate = (date: Date) => {
+        return format(date, 'PP')
+    }
     const columns: GridColDef[] = [
-        { field: 'date', headerName: 'Date', width: 150 },
-        { field: 'open', headerName: 'Open', width: 150 },
-        { field: 'high', headerName: 'High', width: 150 },
-        { field: 'low', headerName: 'Low', width: 150 },
-        { field: 'close', headerName: 'Close', width: 150 },
-        { field: 'adjClose', headerName: 'Adj Close', width: 150 },
-        { field: 'volume', headerName: 'Volume', width: 150 },
+        {
+            field: 'date', headerName: 'Date', width: 150, valueFormatter: (params) => {
+                console.log(params.value)
+                if (params.value) {
+                    return formatDate(new Date(params.value as string));
+                }
+                else { return ''; }  
+            }
+        },
+        { field: 'open', headerName: 'Open', width: 150,  valueFormatter: (params) => (params.value as number).toFixed(2) },
+        { field: 'high', headerName: 'High', width: 150 ,valueFormatter: (params) => (params.value as number).toFixed(2) },
+        { field: 'low', headerName: 'Low', width: 150,valueFormatter: (params) => (params.value as number).toFixed(2)  },
+        { field: 'close', headerName: 'Close', width: 150,valueFormatter: (params) => (params.value as number).toFixed(2)  },
+        { field: 'adjClose', headerName: 'Adj Close', width: 150 ,valueFormatter: (params) => (params.value as number).toFixed(2) },
+        { field: 'volume', headerName: 'Volume', width: 150,valueFormatter: (params) => params.value?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") , align:'right'  },
     ];
 
     return <Grid container spacing={3}>
