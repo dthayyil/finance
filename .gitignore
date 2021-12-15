@@ -25,3 +25,6 @@ FinanceAPI/bin/Debug/net6.0/Finance.Models.dll
 FinanceAPI/bin/
 FinanceAPI/obj/
 Finance.Core/obj/
+FinanceAPI/.vs/FinanceAPI/DesignTimeBuild/.dtbcache.v2
+FinanceAPI/.vs/FinanceAPI/v17/.suo
+FinanceAPI/obj/Debug/net6.0/FinanceAPI.csproj.AssemblyReference.cache
