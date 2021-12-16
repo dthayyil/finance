@@ -12,7 +12,7 @@ import { formatDate, formatDecimal, toFixedTwo } from "../utils";
 import { CompanyView } from "./companyView";
 import GridViewIcon from '@mui/icons-material/GridView';
 import TableRowsIcon from '@mui/icons-material/TableRows';
-
+const staleTime= 10000;
 export const CompanyContainer = () => {
 
     const [searchText, setSearchText] = useState<string>();
@@ -21,11 +21,11 @@ export const CompanyContainer = () => {
 
     const { data, isFetching } = useQuery([COMPANY_KEY, searchText], () => {
         return companySearch(searchText ?? '');
-    }, { enabled: !!searchText, cacheTime: Infinity, keepPreviousData: true })
+    }, { enabled: !!searchText, cacheTime: Infinity, keepPreviousData: true ,staleTime})
 
     const { data: history, isFetching: historyLoading } = useQuery([HISTORY_KEY, selectedCompany?.id], () => {
         return loadHistory(selectedCompany?.id ?? 0);
-    }, { enabled: !!selectedCompany?.id, cacheTime: Infinity, keepPreviousData: true })
+    }, { enabled: !!selectedCompany?.id, cacheTime: Infinity, keepPreviousData: true,staleTime })
 
 
     const columns: GridColDef[] = [
